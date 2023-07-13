@@ -11,7 +11,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXRouter.bind(this, stage, "Hello World");
         configRoute();
-        FXRouter.goTo("student-profile");
+        FXRouter.goTo("hello");
     }
 
     public static void configRoute()
